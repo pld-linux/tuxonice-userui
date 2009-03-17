@@ -13,7 +13,7 @@ License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.tuxonice.net/downloads/all/%{name}-%{version}.tar.gz
 # Source0-md5:	38a038a6ff8ecf3b3e068ec99ac12062
-#Patch0:		%{name}-Makefile.patch
+Patch0:		%{name}-Makefile.patch
 URL:		http://www.tuxonice.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -88,7 +88,7 @@ Ta paczka zawiera UI dla usplasha.
 
 %prep
 %setup -q
-#%patch0 -p1
+%patch0 -p1
 
 %build
 %{__make} clean
