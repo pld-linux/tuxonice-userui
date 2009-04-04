@@ -7,12 +7,12 @@ Summary:	TuxOnIce User UI
 Summary(de.UTF-8):	TuxOnIce Benutzer Interface
 Summary(pl.UTF-8):	Interfejs użytkownika dla TuxOnIce
 Name:		tuxonice-userui
-Version:	0.7.3
+Version:	1.0
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.tuxonice.net/downloads/all/%{name}-%{version}.tar.gz
-# Source0-md5:	38a038a6ff8ecf3b3e068ec99ac12062
+# Source0-md5:	37df358323076fc4882a6287087aaad6
 Patch0:		%{name}-Makefile.patch
 URL:		http://www.tuxonice.net/
 BuildRequires:	autoconf
